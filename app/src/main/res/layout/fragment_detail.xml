@@ -6,59 +6,8 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.android.sunshine.app.DetailActivityFragment">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Medium Text"
-        android:id="@+id/textDay"
-        android:layout_marginLeft="38dp"
-        android:layout_marginStart="38dp"
-        android:layout_marginTop="48dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:id="@+id/detail_text"
+        android:layout_height="wrap_content" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Medium Text"
-        android:id="@+id/textDate"
-        android:layout_below="@+id/textDay"
-        android:layout_alignLeft="@+id/textDay"
-        android:layout_alignStart="@+id/textDay" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
-        android:id="@+id/textHigh"
-        android:layout_below="@+id/textDate"
-        android:layout_alignLeft="@+id/textDate"
-        android:layout_alignStart="@+id/textDate"
-        android:layout_marginTop="36dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
-        android:id="@+id/textLow"
-        android:layout_below="@+id/textHigh"
-        android:layout_alignLeft="@+id/textHigh"
-        android:layout_alignStart="@+id/textHigh" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
-        android:id="@+id/textWeather"
-        android:layout_alignTop="@+id/textHigh"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="35dp"
-        android:layout_marginEnd="35dp" />
 </RelativeLayout>
